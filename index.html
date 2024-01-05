@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>  Portfolio website </title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+  <div class="container">
+    <div class="main-container">
+      <div class="text-container">
+        <section id="about">
+          <p class="text">UI/UX DESIGNER</p>
+          <p><span>Hello, my name is Madelyn Torff.</span> Short text with details about you, what you do, or your professional career. You can add more information on the about page.</p>
+          <button class="pro-button">Projects</button>
+          <button class="li-button">Linkedin</button>
+        </section>
+      </div>
+      <div class="image-container">
+        <nav class="nav">
+          <ul class="ul">
+            <li class="head">Madelyn Torff</li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contacts</a></li>
+          </ul>
+        </nav>
+        <img src="https://www.ucf.edu/wp-content/blogs.dir/20/files/2018/07/sasint-at-pixabay-709x512.jpg" class="img" alt="img"/>
+      </div>
+    </div>
+
+    <div class="project-add-container">
+      <h1 class="text">Add project</h1>
+      <section id="projects-section">
+        <label>Project name</label>
+        <input type="text" id="projectName">
+        <label>Project link</label>
+        <input type="text" id="projectLink">
+        <label>Project Description</label>
+        <input type="text" id="projectDescription">
+        <button class="pro-button" id="addProjectButton">Add</button>
+      </section>
+    </div>
+    
+
+    <div class="project-container">
+      <main>
+        <section id="projects">
+          <h2>Projects</h2>
+          <div class="project-list">
+
+            <div class="project-card">
+              <img src="https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg" class="img1" alt="img"/>
+              <div>
+                <h3 class="head-text">Take a photo</h3>
+                <p class="para">Enter to show how to create an interface in Figma using a portfolio as an example</p>
+                <button class="p-button">View Project</button>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzd-mchfk8QwVmNE4zW9gMRYoeXPyPi31Hbw&usqp=CAU" class="img1" alt="img"/>
+              <div>
+                <h3 class="head-text">Animated this personal project</h3>
+                <p class="para">Enter to show how to create an interface in Figma using a portfolio as an example</p>
+                <button class="p-button">View Project</button>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhxmjEjSBlCnX5nwhOdTTI3sRxVY-2RUTMzA&usqp=CAU" class="img1" alt="img"/>
+              <div>
+                <h3 class="head-text">Animated this personal project</h3>
+                <p class="para">Enter to show how to create an interface in Figma using a portfolio as an example</p>
+                <button class="p-button">View Project</button>
+              </div>
+            </div>
+
+
+
+          </div>
+        </section>
+      </main>
+
+      <section id="contact">
+        <footer class="footer">
+          <div>
+            <a href="https://www.instagram.com/your_username" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/your_username" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:your_email@example.com">
+              <i class="far fa-envelope"></i>
+            </a>
+          </div>
+          &copy; 2014 All rights reserved
+        </footer>
+      </section>
+      
+
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
